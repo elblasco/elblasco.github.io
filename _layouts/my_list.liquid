@@ -11,7 +11,7 @@
    <meta property="og:title" content="{{site.name}}'s Homepage" />
    <meta property="og:type" content="website" />
    <meta property="og:url" content="{{site.url}}" />
-   <meta property="og:image" content="{{" /assets/img/me.jpeg" | absolute_url}}" />
+   <!--<meta property="og:image" content="{{" /assets/img/me.jpeg" | absolute_url}}" />-->
    <meta property="og:description" content="{{page.description}}" />
 </head>
 
@@ -20,7 +20,18 @@
       {% include my_header.liquid %}
    </header>
    <main>
-      {{content}}
+      <h1>My posts</h1>
+      <ol id="list-posts">
+         {% for post in site.posts %}
+            <li>
+               <article>
+                  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                  {{post.excerpt}}
+               </article>
+            </li>
+         {% endfor %}
+      </ol>
    </main>
 </body>
+
 </html>

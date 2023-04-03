@@ -1,5 +1,7 @@
 ---
 layout: my_home
+description: >-
+  Alessio Blascovich's personal website.
 ---
 
 ![Alessio Blascovich's profile pic](/assets/img/profile_pic.jpg)
@@ -11,5 +13,5 @@ Computer Science Bachelor student at University of Trento.
 
 ## Contacts
 
-Email: [{{site.email}}](mailto:{{site.mail}})
-Telegram: [@{{site.telegram_user}}](https://t.me/{{site.telegram_user}})
+- Email: [{{site.email}}](mailto:{{site.mail}}){:id="email"}
+- Telegram: [@{{site.telegram_user}}](https://t.me/{{site.telegram_user}}){:id="telegram"}
