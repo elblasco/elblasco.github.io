@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>{{site.title}}</title>
+
+   <meta property="og:title" content="{{site.name}}'s Homepage" />
+   <meta property="og:type" content="website" />
+   <meta property="og:url" content="{{site.url}}" />
+   <!--<meta property="og:image" content="{{" /assets/img/me.jpeg" | absolute_url}}" />-->
+   <meta property="og:description" content="{{page.description}}" />
+</head>
+
+<body>
+   <header>
+      {% include "header.liquid" %}
+   </header>
+   {{content}}
+   
+</body>
+
+</html>
