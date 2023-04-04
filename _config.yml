@@ -22,6 +22,7 @@ url: "https://elblasco.github.io" # the base hostname & protocol for your site, 
 twitter_username: alessio_blasco
 github_username:  elblasco
 telegram_user: alessio_blascovich
+linkedin_user: alessio-blascovich
 
 # Build settings
 markdown: kramdown

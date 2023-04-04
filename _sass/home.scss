@@ -4,6 +4,9 @@ body {
 
 img {
    color: #f8f8f2;
+}
+
+img#profile_pic {
    border: #f1fa8c;
    border-style: solid;
    border-width: 4px;
@@ -15,15 +18,23 @@ img {
    margin-right: auto;
 }
 
-h2 {
+img.social_logo {
+   height: 20px;
+   width: 20px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1 {
    color: #ff79c6;
    font-family: 'Georgia';
    font-size: x-large;
    text-align: center;
 }
 
-h3 {
-   color: #50fa7b;
+h2 {
+   color: #ff79c6;
    font-family: 'Georgia';
    font-size: large;
    text-align: center;
@@ -39,22 +50,4 @@ p {
 a {
    color: #8be9fd;
    text-decoration: none;
-}
-
-div {
-   text-align: center;
-}
-
-
-ul {
-   display: inline-block;
-   text-align: left;
-}
-
-#email {
-   list-style-type: '✉️  ';
-}
-
-#telegram {
-   list-style-type: '💬  ';
 }
