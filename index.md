@@ -19,3 +19,7 @@ Telegram: [@{{site.telegram_user}}](https://t.me/{{site.telegram_user}})
 [![Twitter logo](/assets/img/twitter_logo_white.svg){:class="social_logo"} @{{site.twitter_username}}](https://twitter.com/{{site.twitter_username}})
 
 [![LinkedIn logo](/assets/img/linkedin_logo_white.png){:class="social_logo"} {{site.linkedin_user}}](https://www.linkedin.com/in/{{site.linkedin_user}})
+
+## Me, myself and I
+
+If you wanna read a brief presentation about myself click on <a href="/posts">Posts</a>.

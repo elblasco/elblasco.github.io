@@ -1,6 +1,14 @@
 @import "colors.scss";
 @import "header.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans');
+
+html {
+    font-family: 'PT+Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
 body {
     background-color: $bg-color;
 }
@@ -11,21 +19,18 @@ img {
 
 h1 {
     color: $title-color;
-    font-family: 'Georgia';
     font-size: x-large;
     text-align: center;
 }
 
 h2 {
     color: $title-color;
-    font-family: 'Georgia';
     font-size: large;
     text-align: center;
 }
 
 p {
     color: $paragraph-color;
-    font-family: 'Georgia';
     font-size: large;
     text-align: center;
 }

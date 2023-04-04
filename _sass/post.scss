@@ -1,2 +1,17 @@
 @import "utils/normalize.scss";
 @import "utils/base_structure.scss";
+
+ul {
+    color: $paragraph-color;
+    display:block;
+    text-align: center;
+    li {
+        text-align: center;
+        list-style: none;
+    }
+}
+
+p {
+    margin-bottom: 30px;
+    line-height: 32px;
+}
