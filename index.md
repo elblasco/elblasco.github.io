@@ -4,7 +4,10 @@ description: >-
   Website homepage.
 ---
 
-![Alessio Blascovich's profile pic](/assets/img/profile_pic.jpg){:id="profile_pic"}
+![Alessio Blascovich's profile pic](https://github.com/{{site.github_username}}.png){:id="profile_pic"}
+
+*The profile pic and the favicon are work in progress*{:id="caption"}
+
 # Hi there, I'm Alessio Blascovich
 
 Computer Science Bachelor student at University of Trento.

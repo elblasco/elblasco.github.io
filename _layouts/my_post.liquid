@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {% include favicon.liquid %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="/assets/styles/post.css">
@@ -8,7 +9,7 @@
   <meta property="og:title" content="{{site.title}}'s posts" />
    <meta property="og:type" content="website" />
    <meta property="og:url" content="{{site.url}}" />
-   <meta property="og:image" content="{{"/assets/img/profile_pic.jpg.jpeg" | absolute_url}}" />
+   <meta property="og:image" content="{{"https://github.com/{{site.github_username}}.png" | absolute_url}}" />
    <meta property="og:description" content="{{page.description}}" />
 </head>
 <body>
