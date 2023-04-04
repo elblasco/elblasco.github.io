@@ -1,13 +1,8 @@
-body {
-   background-color: #282a36;
-}
-
-img {
-   color: #f8f8f2;
-}
+@import "utils/normalize.scss";
+@import "utils/base_structure.scss";
 
 img#profile_pic {
-   border: #f1fa8c;
+   border: $img-border-color;
    border-style: solid;
    border-width: 4px;
    border-radius: 50%;
@@ -24,30 +19,4 @@ img.social_logo {
    display: block;
    margin-left: auto;
    margin-right: auto;
-}
-
-h1 {
-   color: #ff79c6;
-   font-family: 'Georgia';
-   font-size: x-large;
-   text-align: center;
-}
-
-h2 {
-   color: #ff79c6;
-   font-family: 'Georgia';
-   font-size: large;
-   text-align: center;
-}
-
-p {
-   color: #f8f8f2;
-   font-family: 'Georgia';
-   font-size: large;
-   text-align: center;
-}
-
-a {
-   color: #8be9fd;
-   text-decoration: none;
 }

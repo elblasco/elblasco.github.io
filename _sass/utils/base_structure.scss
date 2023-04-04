@@ -1,0 +1,36 @@
+@import "colors.scss";
+@import "header.scss";
+
+body {
+    background-color: $bg-color;
+}
+
+img {
+    color: $paragraph-color;
+}
+
+h1 {
+    color: $title-color;
+    font-family: 'Georgia';
+    font-size: x-large;
+    text-align: center;
+}
+
+h2 {
+    color: $title-color;
+    font-family: 'Georgia';
+    font-size: large;
+    text-align: center;
+}
+
+p {
+    color: $paragraph-color;
+    font-family: 'Georgia';
+    font-size: large;
+    text-align: center;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}

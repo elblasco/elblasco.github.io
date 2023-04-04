@@ -1,0 +1,18 @@
+@import "utils/normalize.scss";
+@import "utils/base_structure.scss";
+
+ul {
+    display:block;
+    text-align: center;
+    li {
+        text-align: center;
+        list-style: none;
+    }
+}
+
+article {
+    color: $paragraph-color;
+    font-family: 'Georgia';
+    font-size: large;
+    text-align: center;
+}

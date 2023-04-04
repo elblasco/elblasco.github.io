@@ -1,7 +1,7 @@
 ---
 layout: my_home
 description: >-
-  Alessio Blascovich's website.
+  Website homepage.
 ---
 
 ![Alessio Blascovich's profile pic](/assets/img/profile_pic.jpg){:id="profile_pic"}

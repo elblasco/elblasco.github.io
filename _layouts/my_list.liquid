@@ -5,13 +5,13 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" type="text/css" href="/assets/styles/home.css">
+   <link rel="stylesheet" type="text/css" href="/assets/styles/list.css">
    <title>{{site.title}}</title>
 
-   <meta property="og:title" content="{{site.name}}'s Homepage" />
+   <meta property="og:title" content="{{site.name}}'s posts" />
    <meta property="og:type" content="website" />
    <meta property="og:url" content="{{site.url}}" />
-   <!--<meta property="og:image" content="{{" /assets/img/me.jpeg" | absolute_url}}" />-->
+   <!--<meta property="og:image" content="{{" /assets/img/profile_pic-jpg.jpeg" | absolute_url}}" />-->
    <meta property="og:description" content="{{page.description}}" />
 </head>
 
@@ -21,16 +21,16 @@
    </header>
    <main>
       <h1>My posts</h1>
-      <ol id="list-posts">
+      <ul id="posts-list">
          {% for post in site.posts %}
             <li>
                <article>
                   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                  {{post.excerpt}}
+                  {{post.description}}
                </article>
             </li>
          {% endfor %}
-      </ol>
+      </ul>
    </main>
 </body>
 

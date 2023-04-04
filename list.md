@@ -1,5 +1,6 @@
 ---
 layout: my_list
-title: Posts
+title: My posts
 permalink: /posts/
+description: The list of all my posts
 ---
