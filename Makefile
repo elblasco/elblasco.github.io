@@ -11,7 +11,7 @@ PUBLISHCONF=$(BASEDIR)/publishconf.py
 GITHUB_PAGES_BRANCH=main
 
 
-DEBUG ?= 0
+DEBUG ?= 1
 ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
 endif
@@ -69,7 +69,7 @@ devserver-global:
 	"$(PELICAN)" -lr "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS) -b 0.0.0.0
 
 publish:
-	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
+	"$(PELICAN)" -lr "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)"
