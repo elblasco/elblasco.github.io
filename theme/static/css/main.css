@@ -1,21 +1,9 @@
-/**
- * Theme Name: Monospace
- * Theme URI: http://vinicius.soylocoporti.org.br/monospace-wordpress-theme
- * Description: A clean, extra-light, easy, objective, image free and 80 columns monospaced content theme. Made for code, manuals and e-mail publishing. Good for programming blogs, planets and posting by mail.
- * Author: Vinicius Massuchetto
- * Author URI: http://vinicius.soylocoporti.org.br
- * Version: 1.91
- * Tags: white, blue, two-columns, fixed-width, threaded-comments, translation-ready
- * License: GNU General Public License v2.0
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- */
-
 @import url("pygment.css");
 
-body { margin:0px; padding:20px 0px; text-align:center; font-family:Monospace; color:#585858; }
-a, a:visited { text-decoration:none; color:rgb(17, 170, 34); }
-a:hover { color:#FFF; background-color:#5353CB }
-h1, h2, h3, h4, h5, h6, h7 { margin:0px; text-transform:uppercase; }
+body { margin:0px; padding:20px 0px; text-align:center; font-family:Monospace; color:#FFFFFF; background:#000000; font-size: 14px;}
+a, a:visited { text-decoration:none; color:#11AA22; }
+a:hover { color:#000000; background-color:#11AA22; }
+h1, h2, h3, h4, h5, h6, h7 { margin:0px; text-transform:uppercase; color:#11AA22; }
 h4, h5, h6 { font-size:14px; }
 h1 { padding:0px 0px 15px; margin:0px 0px 15px 0px; }
 blockquote { font-style:italic; background:#EAEAEA; margin:20px; padding:5px 10px; }
@@ -23,10 +11,10 @@ blockquote cite { display:block; padding:10px 20px 0 0; text-align:right; }
 input, textarea { padding:5px; border:1px solid #8A8A8A; background:#EAEAEA; }
 input:hover, textarea:hover, blockquote:hover { background:#E5E5E5; }
 
-#wrap { margin:0px auto; text-align:left; font-size: 13px; line-height: 1.4; }
+#wrap { margin:0px auto; text-align:left; line-height: 1.4; }
 #container { float:right; }
 #sidebar { overflow:hidden; clear:left; text-align:right; width:250px; height:auto; padding:0px 15px 0px 0px; border-right:1px dotted #C8C8C8; }
-#sidebar li { list-style-type:none; }
+#sidebar li { list-style-type:none; clear:both;}
 #sidebar > li { margin:20px 0px; }
 #sidebar h1 { border-bottom:1px dotted #C8C8C8; }
 #sidebar .description { display:block; width:100%; height:auto; margin:0px 0px 10px 0px; }
@@ -84,7 +72,7 @@ ul.commentlist ul.children li { list-style-type:none; border:1px solid #AAA }
 .bypostauthor { border:3px dotted #C8C8C8; }
 .form-allowed-tags { display:none; }
 
-#respond { margin:30px 0px 0px 0px; background:#FFF; border:1px solid #9A9A9A; margin:30px 0 0; padding:20px; }
+#respond { margin:30px 0px 0px 0px; background:#000000; border:1px solid #9A9A9A; margin:30px 0 0; padding:20px; }
 #commentform p { text-align:right; }
 #commentform input { width:50%; height:auto; margin:0px 0px 0px 10px; }
 #commentform .required { font-weight:bold; }

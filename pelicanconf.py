@@ -1,14 +1,26 @@
-AUTHOR = 'Alessio Blascovich'
-SITENAME = 'Alessio Blascovich'
-SITEURL = ""
-
-THEME = "themes/monospace"
-
+AUTHOR = "Alessio Blascovich"
+SITENAME = "Alessio Blascovich"
+THEME = "theme"
 PATH = "content"
+INDEX_SAVE_AS = "index.html"
+STATIC_PATHS = ['pages', 'extra']
 
 TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = 'en'
+
+DATE_FORMATS = {
+    'en': '%Y-%m-%d'
+}
+
+DEFAULT_METADATA = {
+    'authors': 'Alessio Blascovich',
+    'lang': 'en'
+}
+
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -17,21 +29,21 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
+GITHUB_URL = "http://github.com/elblasco"
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("LinkedIn", "https://www.linkedin.com/in/alessio-blascovich/"),
+    ("GitHub", "https://github.com/elblasco")
 )
 
-DEFAULT_PAGINATION = 3
+
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+# RELATIVE_URLS = True
+
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
