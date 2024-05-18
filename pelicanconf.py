@@ -3,7 +3,7 @@ SITENAME = "Alessio Blascovich"
 THEME = "theme"
 PATH = "content"
 INDEX_SAVE_AS = "index.html"
-STATIC_PATHS = ['extra']
+STATIC_PATHS = ['extra', 'images']
 
 TIMEZONE = 'Europe/Rome'
 

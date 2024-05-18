@@ -1,9 +1,9 @@
 ---
-title: Hello
+title:
 summary: Website homepage
 save_as: index.html
 ---
-<img alt="My GitHub profile pic" src="https://github.com/elblasco.png" height=300px>
+<img alt="Bachelor's party" src="{static}/images/graduation.png" height=300px>
 
 Computer Science Bachelor's Degree at University of Trento.  
 Enrolled in the Computer Science Master's Degree at University of Trento.  
