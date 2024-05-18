@@ -2,7 +2,10 @@
 {% block title %}{{ page.title }}{% endblock %}
 {% block content %}        
 <header>
-<h1>{# {{ SITENAME }} #} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %} {#:#} {{ page.title }}</h1>
+  {% if not SITENAME %}
+  {% else %}
+  <h1>{# {{ SITENAME }} #} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %} {#:#} {{ page.title }}</h1>
+  {% endif %}
 </header>
 <article>    
     {{ page.content }}
