@@ -4,6 +4,7 @@ THEME = "theme"
 PATH = "content"
 INDEX_SAVE_AS = "index.html"
 STATIC_PATHS = ['extra', 'images','.well-known']
+PAGE_PATH = ['.well-known']
 
 TIMEZONE = 'Europe/Rome'
 
