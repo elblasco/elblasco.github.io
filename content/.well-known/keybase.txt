@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/alessio_blasco
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://elblasco.github.io
+  * I am alessio_blasco (https://keybase.io/alessio_blasco) on keybase.
+  * I have a public key ASCihLzEC8b6ZhxT_Np_ZRd4sw_nvz3ejc_gS0OFjoQHIgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c4144632bfa699399cfa143174d7a2e66376412b73e22d09f730f24648d6af8b0a",
+      "host": "keybase.io",
+      "kid": "0120a284bcc40bc6fa661c53fcda7f651778b30fe7bf3dde8dcfe04b43858e8407220a",
+      "uid": "d07a390f53f8e2179096be45929d4919",
+      "username": "alessio_blasco"
+    },
+    "merkle_root": {
+      "ctime": 1719502504,
+      "hash": "42715a3fd56de526ed0989be5d3e6aa37ed0e96c47a9a4f0938fee94e7ade0f722ff9b0ab7eea5ba9785a8a45c06aee38a7f0e036dc4970a42ecc8f00c12ca56",
+      "hash_meta": "f91edc1e956539f9cafe652b659c1e3cf4c5b6930a96f833818681906e435c47",
+      "seqno": 25871872
+    },
+    "service": {
+      "entropy": "KeIBJoQJU4rfoIbDfWOVOkyK",
+      "hostname": "elblasco.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.3.1"
+  },
+  "ctime": 1719502581,
+  "expire_in": 504576000,
+  "prev": "3d02324eb110ca3b12aa53d4046d93ace053e2d94f5783646012c3fb65522235",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgooS8xAvG+mYcU/zaf2UXeLMP57893o3P4EtDhY6EByIKp3BheWxvYWTESpcCCsQgPQIyTrEQyjsSqlPUBG2TrOBT4tlPV4NkYBLD+2VSIjXEIGE2JrkPwr+jBSTiKgrSpN7sFGK5HvdHi4ZgjuULTgJLAgHCo3NpZ8RA+IcRsC7JTp5s9d25Vxao151SUrgIslbPWSffHXBvH8HVjLxkE5TTtZio6eCova45eDNdQkwZagRbZjMPcZalCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICZr0jlaTrQ/qormlmHD/Sv8qWXSKV91uQktGwAvxZZWo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alessio_blasco
+
+==================================================================
