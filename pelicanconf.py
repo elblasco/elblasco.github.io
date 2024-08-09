@@ -1,10 +1,12 @@
 AUTHOR = "Alessio Blascovich"
 SITENAME = "Alessio Blascovich"
+HOME = "https://elblasco.github.io"
 THEME = "theme"
 PATH = "content"
 INDEX_SAVE_AS = "index.html"
-STATIC_PATHS = ['extra', 'images','.well-known']
-PAGE_PATH = ['.well-known']
+STATIC_PATHS = ['extra', 'images', '.well-known']
+PAGE_PATHS = ['.well-known', 'indices', 'pages']
+ARTICLE_PATHS = ['articles']
 
 TIMEZONE = 'Europe/Rome'
 
@@ -44,7 +46,7 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+ARTICLE_URL = 'articles/{slug}.html'
+ARTICLE_SAVE_AS = 'articles/{slug}.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
