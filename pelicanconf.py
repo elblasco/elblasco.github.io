@@ -4,7 +4,7 @@ HOME = "https://elblasco.github.io"
 THEME = "theme"
 PATH = "content"
 INDEX_SAVE_AS = "index.html"
-STATIC_PATHS = ['extra', 'images', '.well-known']
+STATIC_PATHS = ['extra', 'images', '.well-known', 'tutoring']
 PAGE_PATHS = ['.well-known', 'indices', 'pages']
 ARTICLE_PATHS = ['articles']
 
