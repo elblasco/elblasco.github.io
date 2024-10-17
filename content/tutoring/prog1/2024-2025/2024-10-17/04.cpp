@@ -33,13 +33,11 @@ int main() {
     } else {
 		cout << "Non esiste un percorso per uscire dal labirinto risolvibile." << endl;
     }
-	
     if (risolvibile(labirinto_non_risolvibile, visitati2, n, m, 0, 0)) {
 		cout << "Esiste un percorso per uscire dal labirinto non risolvibile." << endl;
 	} else {
 		cout << "Non esiste un percorso per uscire dal labirinto non risolvibile." << endl;
 	}
-    
     return 0;
 }
 
