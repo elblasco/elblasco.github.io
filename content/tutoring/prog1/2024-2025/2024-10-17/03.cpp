@@ -22,36 +22,3 @@ int main() {
 }
 
 // Implemenetazione delle funzioni
-
-// Funzione per cifrare un singolo carattere
-char cifra(char c) {
-    if (c >= '0' && c <= '9') {
-        // Cifra numerica: inverte 0-9
-        return '9' - (c - '0');
-    } else if (c >= 'a' && c <= 'z') {
-        // Lettera minuscola: la converte nella maiuscola opposta
-        return 'Z' - (c - 'a');
-    } else if (c >= 'A' && c <= 'Z') {
-        // Lettera maiuscola: la converte nella minuscola opposta
-        return 'z' - (c - 'A');
-    }
-    // Non bisogna invertire il carattere
-    return c;
-}
-
-// Funzione ricorsiva per cifrare e invertire l'array
-void Not_AES(char input[], char output[], int start, int end) {
-	// Caso base: abbiamo finito di processare tutti gli elementi
-	if (start < 0) {
-        return;
-    }
-	// Caso ricorsivo: cifra il carattere corrente e lo salva in posizione
-	// invertita, ora rimane da fare il sotto array input[start-1...end]
-	else{
-    
-		// Cifra il carattere corrente e lo salva nell'array di output in
-		// posizione inversa
-		output[end - start - 1] = cifra(input[start]);
-		Not_AES(input, output, start - 1, end);
-	}
-}

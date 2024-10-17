@@ -27,7 +27,7 @@ int main() {
     // Matrice per tracciare le celle visitate
     bool visitati[MAX_SIZE][MAX_SIZE] = { {false} };
 	bool visitati2[MAX_SIZE][MAX_SIZE] = { {false} };
-    
+	
     if (risolvibile(labirinto_risolvibile, visitati, n, m, 0, 0)) {
         cout << "Esiste un percorso per uscire dal labirinto risolvibile." << endl;
     } else {
