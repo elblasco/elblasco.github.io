@@ -1,7 +1,7 @@
 ---
 template: index
-sourceDirectory: projects
+sourceDirectory: activities
 title: Projects index
 category: project
-save_as: indices/projects.html
+save_as: indices/organiser.html
 ---
