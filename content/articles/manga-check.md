@@ -1,7 +1,7 @@
 ---
 template: article
 title: Manga Check
-summary: Android application for reading/tracking manga
+summary: Android application for reading and tracking manga
 date: 2023-09-11
 authors: Alessio Blascovich, Jan Tomassi
 tags: university, android, mangacheck
