@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block title %}{% endblock %}
 {% block content %}        
-{% if page.metadata.sourceDirectory %}
-{% for item in page.metadata.sourceDirectory %}
+{% if articles %}
+{% for item in articles %}
 <p id="article-list">
-  <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ item.title}}"><h2>{# {{ SITENAME }} #} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %} {#:#} {{ item.title }}</h2></a>
-  <time datetime="{{ article.date.isoformat() }}">{{ item.locale_date }}</time>
+  <a href="{{ SITEURL }}/{{ item.url }}" rel="bookmark" title="Permalink to {{ item.title}}"><h2>{# {{ SITENAME }} #} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %} {#:#} {{ item.title }}</h2></a>
+  <time datetime="{{ item.date.isoformat() }}">{{ item.locale_date }}</time>
   <p>{{ item.summary }}</p>
 </p>
     {% endfor %}
