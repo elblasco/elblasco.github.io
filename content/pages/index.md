@@ -5,8 +5,8 @@ save_as: index.html
 ---
 <img alt="Bachelor's party" src="{static}/images/graduation.png" height=270pt>
 
-Computer Science Bachelor's Degree at University of Trento.  
-Enrolled in the Computer Science Master's Degree at University of Trento.  
+Both Bachelor's and Master's in Computer Science at the University of Trento.  
+Currently, an exchange researcher and student at the University of Tokyo (<a href="https://www-kb.is.s.u-tokyo.ac.jp/">Kobayashi Laboratory</a>).  
 Passionate about theoretical computer science, music and books.
 
 ## Contacts
