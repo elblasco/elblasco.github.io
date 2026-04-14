@@ -1,31 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Your Name</title>
-  <style>
-    body {
-      max-width: 700px;
-      margin: auto;
-      font-family: sans-serif;
-      line-height: 1.6;
-      padding: 2rem;
-      background: #fff;
-      color: #000;
-    }
-    a {
-      color: #000;
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <h1>Your Name</h1>
-  <p>Welcome to my website.</p>
-
-  <h2>Posts</h2>
-  <ul>
-    <li><a href="#">First post</a></li>
-  </ul>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="none, indexifembedded, noimageindex">
+        <meta name="description" content="Alessio Blascovich's homepage">
+        <title>Alessio Blascovich</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Alessio Blascovich's Homepage</h1>
+            </header>
+            <article>
+                <div class="column">
+                    <img class="propic" alt="Bachelor's party" src="./images/graduation.png" height="270">
+                    <p>
+                        Both Bachelor's and Master's in Computer Science at the University of Trento.<br>
+                        An former exchange researcher and student at the <a href="https://www-kb.is.s.u-tokyo.ac.jp/">Kobayashi Laboratory</a>.<br>
+                        Passionate about theoretical computer science, music and books.
+                    </p>
+                </div>
+                <div class="column">
+                    <h2 class="with-gif"><img src="./gifs/mail.gif" width="40" height="40">Socials</h2>
+                    <ul>
+                        <li>email: blasovi [at] outlook [dot] it</li>
+                        <ul>
+                            <li>If you want to encrypt our correspondence here my public key: <a href="./.well-known/alessioblascovich.pgp">alessioblascovich.pgp</a></li>
+                        </ul>
+                        <li><a href="https://github.com/elblasco">https://github.com/elblasco</a></li>
+                    </ul>
+                    <h2 class="with-gif"><img src="./gifs/wip.gif" width="40" height="40">Projects</h2>
+                    <ul>
+                        <li>Currently working on:</a></li>
+                        <ul>
+                            <li><a href="https://github.com/elblasco/catalia">Catalia</a> a CHC solver that supports <em>Algebraic DataTypes</em>;</li>
+                        </ul>
+                        <li>Previously worked on:</li>
+                        <ul>
+                            <li><a href="https://github.com/elblasco/SPE-homework" >A simulation of Vienna metro system</a>;</li>
+                            <li><a href="https://github.com/elblasco/q-top/">Q-top</a> a fault-tollerant sequentially ordered broadcast protocol.</li>
+                        </ul>
+                    </ul>
+                    <h2 class="with-gif"><img src="./gifs/university.gif" width="40" height="40">Theses</h2>
+                    <ul>
+                        <li>Bachelor: <em>"Using Secure Boot and TPM 2.0 in thin clients"</em></li>
+                        <li>Master: <em>"TBD"</em></li>
+                    </ul>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <a href="https://elblasco.github.io">https://elblasco.github.io</a>
+        </footer>
+    </body>
 </html>

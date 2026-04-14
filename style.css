@@ -1,0 +1,79 @@
+body {
+    margin: auto;
+    font-family: sans, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
+    line-height: 1.6;
+    background: white;
+    color: black;
+}
+
+header {
+    text-align: center ;
+    font-family: sans ;
+    padding-bottom: 15pt;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    clear: both;
+}
+
+.with-gif {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+header {
+    padding-bottom: 15;
+}
+header h1 {
+    font-size: 30;
+    margin-bottom: 0;
+}
+
+main {
+    max-width: 50%;
+    margin: auto;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+}
+a:hover {
+    color: RebeccaPurple;
+}
+
+p {
+    text-align: center;
+}
+
+.propic {
+    margin: auto;
+    border-radius: 50%;
+    display: block;
+}
+
+.column {
+    float: left;
+    padding 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media (min-width: 1000px) {
+    .column {
+        max-width: 50%;
+    }
+    .column:nth-child(odd) {
+        white-space: nowrap;
+    }
+}
+
+footer {
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align: center ;
+    clear: both ;
+}
