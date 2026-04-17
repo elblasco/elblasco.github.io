@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    font-family: sans, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
+    font-family: sans;
     line-height: 1.6;
     background: white;
     color: black;
@@ -62,12 +62,9 @@ p {
     width: 100%;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1900px) {
     .column {
         max-width: 50%;
-    }
-    .column:nth-child(odd) {
-        white-space: nowrap;
     }
 }
 
