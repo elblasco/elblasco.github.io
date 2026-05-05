@@ -1,14 +1,17 @@
+:root {
+    --tyrian-purple:#4B0049;
+}
+
 body {
     margin: auto;
-    font-family: sans;
+    font-family: serif;
     line-height: 1.6;
     background: white;
     color: black;
 }
 
 header {
-    text-align: center ;
-    font-family: sans ;
+    text-align: center;
     padding-bottom: 15pt;
 }
 
@@ -53,11 +56,12 @@ p {
     margin: auto;
     border-radius: 50%;
     display: block;
+    border: 3px solid var(--tyrian-purple);
 }
 
 .column {
     float: left;
-    padding 10px;
+    padding: 10px;
     box-sizing: border-box;
     width: 100%;
 }
