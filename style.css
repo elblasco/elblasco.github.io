@@ -45,7 +45,7 @@ a {
     font-style: italic;
 }
 a:hover {
-    color: RebeccaPurple;
+    color: var(--tyrian-purple);
 }
 
 p {
