@@ -58,6 +58,7 @@ p {
     display: block;
     border: 3px solid var(--tyrian-purple);
 }
+li img { vertical-align: middle; }
 
 .column {
     float: left;
@@ -77,4 +78,9 @@ footer {
     margin-right: auto ;
     text-align: center ;
     clear: both ;
+}
+
+.reverse-text {
+    unicode-bidi: bidi-override;
+    direction: rtl;
 }
