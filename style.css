@@ -84,8 +84,8 @@ a:hover {
     display: block;
     border: 3px solid var(--tyrian-purple);
     margin: 0 auto;
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 10vw;
 }
 
 li img { vertical-align: middle; }
