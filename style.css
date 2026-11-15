@@ -39,8 +39,6 @@ header {
     margin: auto auto;
     padding-bottom: 15pt;
     width: 50%;
-    /* min-height: 100vh; */
-    /* min-height: 100dvh; */
     box-sizing: border-box;
 }
 
@@ -56,12 +54,6 @@ header.stacked {
 h1,h2,h3,h4,h5,h6 {
     text-align: center;
     clear: both;
-}
-
-.with-gif {
-    display: flex;
-    align-items: center;
-    gap: 8px;
 }
 
 main {
@@ -80,12 +72,12 @@ a:hover {
 }
 
 .propic {
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     display: block;
     border: 3px solid var(--tyrian-purple);
     margin: 0 auto;
-    height: auto;
-    width: 10vw;
+    height: 50vh;
+    width: auto;
 }
 
 li img { vertical-align: middle; }
